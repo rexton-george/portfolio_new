@@ -1,8 +1,16 @@
 import styles from './Hero.module.css'
 import Button from '../Button/Button'
+import { motion } from "framer-motion";
+
 
 const Hero = () =>{
+
     return(
+        <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        >
         <div className={styles.hero}>
             <div className={styles.roll}>
                 <div className={styles.inroll}>
@@ -44,6 +52,7 @@ const Hero = () =>{
                 </div>
             </div>
         </div>
+        </motion.div>
     )
 }
 
