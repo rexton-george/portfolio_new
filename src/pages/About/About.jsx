@@ -1,4 +1,4 @@
-import Navbar from '../../componets/Navbar/navbar'
+import Navbar from '../../componets/Navbar/Navbar'
 import Styles from './About.module.css'
 import Navlocator from '../../componets/Navlocator/Navlocator'
 

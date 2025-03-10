@@ -23,11 +23,12 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    align-items: start;
+    align-items: end;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     letter-spacing: 2px;
+    text-align: end;
 }
 .inroll p{
     font-size: 15px;
@@ -68,6 +69,8 @@
     color: white;
 }
 .namendimg img{
+    min-height: 200px;
+    min-width: 200px;
     height: 80%;
     width: 80%;
     background-color: rgb(222, 135, 157);
