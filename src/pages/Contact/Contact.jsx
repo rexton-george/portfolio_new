@@ -1,4 +1,4 @@
-import Navbar from '../../componets/Navbar/navbar'
+import Navbar from '../../componets/Navbar/Navbar'
 import Styles from './Contact.module.css'
 import Navlocator from '../../componets/Navlocator/Navlocator'
 
@@ -12,4 +12,4 @@ const Contact = () =>
         )
     }
     
-    export default Contact
+    export default Contact;

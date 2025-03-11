@@ -1,4 +1,4 @@
-import Navbar from '../../componets/Navbar/navbar'
+import Navbar from '../../componets/Navbar/Navbar'
 import Styles from './Skills.module.css'
 import Navlocator from '../../componets/Navlocator/Navlocator'
 const Skills = () =>
@@ -11,4 +11,4 @@ const Skills = () =>
         )
     }
     
-    export default Skills
+    export default Skills;
