@@ -2,4 +2,6 @@
     width: 100%;
     height: 100vh;
     background: linear-gradient(180deg, #860047, black);
+    overflow: scroll;
+    scrollbar-width: none;
 }

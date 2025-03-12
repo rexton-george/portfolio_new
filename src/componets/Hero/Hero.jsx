@@ -39,10 +39,10 @@ const Hero = () =>{
                     <h2>About Me:</h2>
                     <div>
                         <p>
-                            Hi! I'm a Pre-final Year CSE student at NPRCET with a passion for web development and problem-solving. 
-                            I've solved 200+ problems on LeetCode and am actively honing my skills in full-stack development with React, Python, and SQL. 
+                            Hi! <b>I'm a Pre-final Year CSE student at NPRCET</b> with a passion for web development and problem-solving. 
+                            <b>I've solved 300+ problems on LeetCode</b> and am actively honing my skills in full-stack development with <b>React, Python, and SQL.</b> 
                             As a Cisco Networking Academy learner, I'm also exploring networking and cybersecurity. 
-                            Currently, I'm seeking internship opportunities to gain hands-on experience and contribute to innovative projects. 🚀
+                            Currently, I'm <b>seeking internship opportunities</b> to gain hands-on experience and contribute to innovative projects. 🚀
                         </p>
                     </div>
                     <div>

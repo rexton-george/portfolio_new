@@ -3,10 +3,16 @@ import Navbar from '../../componets/Navbar/Navbar'
 import Hero from '../../componets/Hero/Hero'
 import Navlocator from '../../componets/Navlocator/Navlocator'
 import { motion } from "framer-motion";
-
+import AOS from 'aos';
+import { useEffect } from "react";
 
 const Home = () =>
 {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
+
+      
     return(
         <div className={Styles.home}>
             <motion.div
@@ -19,9 +25,9 @@ const Home = () =>
             
             <Navlocator/>
             <Hero/>
-            <Hero/>
-            <Hero/>
-            <Hero/>
+            <Hero data-aos="fade-up" style={{ padding: "50px", background: "lightcoral" }}/>
+            <Hero data-aos="fade-up" style={{ padding: "50px", background: "lightcoral" }}/>
+            <Hero data-aos="fade-up" style={{ padding: "50px", background: "lightcoral" }}/>
         </div>
     )
 }
