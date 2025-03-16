@@ -36,19 +36,19 @@ const Hero = () =>{
             </div>
             <div className={styles.dscrp}>
                 <div className={styles.indscrp}>
-                    <h2>About Me:</h2>
+                    <h2>Hello There!🖐</h2>
                     <div>
                         <p>
-                            Hi! <b>I'm a Pre-final Year CSE student at NPRCET</b> with a passion for web development and problem-solving. 
+                            <b>I'm a Pre-final Year CSE student at NPRCET</b> with a passion for web development and problem-solving. 
                             <b>I've solved 300+ problems on LeetCode</b> and am actively honing my skills in full-stack development with <b>React, Python, and SQL.</b> 
                             As a Cisco Networking Academy learner, I'm also exploring networking and cybersecurity. 
                             Currently, I'm <b>seeking internship opportunities</b> to gain hands-on experience and contribute to innovative projects. 🚀
                         </p>
                     </div>
                     <div>
-                        <span className={styles.Button}><Button name ='About'/></span>  
+                        <span className={styles.Button}><Button path = 'About' name ='About'/></span>  
+                        <span className={styles.Button}><Button path = 'Contact' name ='Hire me'/></span>  
                     </div>
-                                    
                 </div>
             </div>
         </div>

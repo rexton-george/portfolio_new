@@ -10,11 +10,11 @@ const Navbar = () =>
         <div id='Navbar' className={styles.Navbar}>
             <div className={styles.logo}><b>RG.</b></div>
             <div className={styles.button}>
-                <Button name = 'Home'/>
-                <Button name = 'About'/>
-                <Button name = 'Skills'/>
-                <Button name = 'Projects'/>
-                <Button name = 'Contact'/>
+                <Button path = 'Home' name = 'Home'/>
+                <Button path = 'About' name = 'About'/>
+                <Button path = 'Skills' name = 'Skills'/>
+                <Button path = 'Projects' name = 'Projects'/>
+                <Button path = 'Contact' name = 'Contact'/>
             </div>
             <div className={styles.icons}>
                 

@@ -25,9 +25,6 @@ const Home = () =>
             
             <Navlocator/>
             <Hero/>
-            <Hero data-aos="fade-up" style={{ padding: "50px", background: "lightcoral" }}/>
-            <Hero data-aos="fade-up" style={{ padding: "50px", background: "lightcoral" }}/>
-            <Hero data-aos="fade-up" style={{ padding: "50px", background: "lightcoral" }}/>
         </div>
     )
 }
