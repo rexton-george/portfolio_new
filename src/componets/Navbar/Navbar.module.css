@@ -4,11 +4,12 @@
     padding: 10px;
     display: flex;
     column-gap: 20px;
-    position: relative;
+    position: fixed;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
     
 }
 .logo{
@@ -22,6 +23,7 @@
     border: 1px , solid, white;
     border-radius: 15px;
     padding: 10px 40px;
+    margin: 20px;
 }
 i{
     cursor: pointer;

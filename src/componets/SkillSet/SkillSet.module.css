@@ -26,6 +26,7 @@
 .cards{
     display: flex; 
     flex-direction: row;
+    min-width: 400px;
     margin: 20px;
     column-gap: 30px;
     overflow: scroll;
@@ -34,5 +35,15 @@
     padding: 20px;
 }
 
+.card1{
+    animation: scroll-left 10s linear infinite;
+}
 
-
+@keyframes scroll-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}

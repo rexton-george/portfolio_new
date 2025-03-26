@@ -1,10 +1,14 @@
-import Styles from './home.module.css'
-import Navbar from '../../componets/Navbar/Navbar'
-import Hero from '../../componets/Hero/Hero'
-import Navlocator from '../../componets/Navlocator/Navlocator'
 import { motion } from "framer-motion";
 import AOS from 'aos';
 import { useEffect } from "react";
+import Styles from './home.module.css'
+
+
+import Navbar from '../../componets/Navbar/Navbar'
+import Hero from '../../componets/Hero/Hero'
+import Navlocator from '../../componets/Navlocator/Navlocator'
+import HomeSkill from "../../componets/HomeSkill/HomeSkill";
+
 
 const Home = () =>
 {
@@ -20,11 +24,11 @@ const Home = () =>
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             >
-                <Navbar/>
             </motion.div>
             
-            <Navlocator/>
+            {/* <Navlocator/> */}
             <Hero/>
+            <HomeSkill/>
         </div>
     )
 }

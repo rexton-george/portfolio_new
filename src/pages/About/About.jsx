@@ -7,9 +7,7 @@ const About = () =>
 {
     return(
         <div className = {Styles.about}>
-            <Navbar/>
-            <Navlocator/> 
-            <AboutComponent/>
+            {/* <Navlocator/>  */}
         </div>
     )
 }

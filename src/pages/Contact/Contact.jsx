@@ -6,8 +6,7 @@ const Contact = () =>
     {
         return(
             <div className={Styles.contact}>
-                <Navbar/>
-                <Navlocator/>
+                {/* <Navlocator/> */}
             </div>
         )
     }

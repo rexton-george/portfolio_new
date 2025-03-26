@@ -6,8 +6,7 @@ const Projects = () =>
     {
         return(
             <div className={Styles.projects}>
-                <Navbar/>
-                <Navlocator/>
+                {/* <Navlocator/> */}
             </div>
         )
     }

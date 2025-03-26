@@ -6,8 +6,7 @@ const Skills = () =>
     {
         return(
             <div className={Styles.skills}>
-            <Navbar/>
-            <Navlocator/>
+            {/* <Navlocator/> */}
             <SkillSet/>
             </div>
         )

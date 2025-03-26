@@ -3,11 +3,11 @@
     display: flex;
     column-gap: 20px;
     row-gap: 20px;
-    padding: 20px;
+    padding: 35px;
     flex-wrap: wrap;
 }
 .roll{
-    width: 30%;
+    width: 500px;
     height: 84vh;
     color: white;
     display: flex;
@@ -46,7 +46,7 @@
     color: rgb(255, 187, 98);
 }
 .namendimg{
-    width: 24em;
+    width: 700px;
 
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@
     color: black;
 }
 .dscrp{
-    width: 30%;
+    width: 500px;
     height: 84vh;
     display: flex;
     align-items: center;

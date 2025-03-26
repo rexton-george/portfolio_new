@@ -4,4 +4,5 @@
     background: linear-gradient(180deg, #860000, black);
     overflow: scroll;
     scrollbar-width: none;
+    padding-top: 40px;
 }
