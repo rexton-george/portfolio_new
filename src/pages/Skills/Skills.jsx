@@ -1,12 +1,12 @@
-import Navbar from '../../componets/Navbar/Navbar'
+import Navbar from '../../componets/Common/Navbar/Navbar'
 import Styles from './Skills.module.css'
-import Navlocator from '../../componets/Navlocator/Navlocator'
-import SkillSet from '../../componets/SkillSet/SkillSet'
+import Navlocator from '../../componets/Common/Navlocator/Navlocator'
+import SkillSet from '../../componets/Skill_components/SkillSet/SkillSet'
 const Skills = () =>
     {
         return(
             <div className={Styles.skills}>
-            {/* <Navlocator/> */}
+            <Navlocator/>
             <SkillSet/>
             </div>
         )

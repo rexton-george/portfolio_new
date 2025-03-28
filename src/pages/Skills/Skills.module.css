@@ -4,7 +4,6 @@
     background: linear-gradient(180deg, #b40060, black);
     overflow: scroll;
     scrollbar-width: none;
-    padding-top: 60px;
 }
 
 .skills::selection{

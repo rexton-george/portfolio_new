@@ -4,10 +4,10 @@ import { useEffect } from "react";
 import Styles from './home.module.css'
 
 
-import Navbar from '../../componets/Navbar/Navbar'
-import Hero from '../../componets/Hero/Hero'
-import Navlocator from '../../componets/Navlocator/Navlocator'
-import HomeSkill from "../../componets/HomeSkill/HomeSkill";
+import Navbar from '../../componets/Common/Navbar/Navbar'
+import Hero from '../../componets/Home_components/Hero/Hero'
+import Navlocator from '../../componets/Common/Navlocator/Navlocator'
+import HomeSkill from "../../componets/Home_components/HomeSkill/HomeSkill";
 
 
 const Home = () =>
@@ -26,7 +26,7 @@ const Home = () =>
             >
             </motion.div>
             
-            {/* <Navlocator/> */}
+            <Navlocator/>
             <Hero/>
             <HomeSkill/>
         </div>

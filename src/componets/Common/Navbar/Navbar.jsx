@@ -1,13 +1,21 @@
 import { useState } from 'react';
+import { motion } from "framer-motion";
 import styles from './Navbar.module.css';
 import Button from '../Button/Button';
+
 
 
 
 const Navbar = () => 
 {
     return(
+            <motion.div
+            initial={{ opacity: 0, x: -40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            >        
         <div id='Navbar' className={styles.Navbar}>
+
             <div className={styles.logo}><b>RG.</b></div>
             <div className={styles.button}>
                 <Button path = 'Home' name = 'Home'/>
@@ -24,7 +32,11 @@ const Navbar = () =>
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCVSmkPhXlgRkrmjBhXmplfqZCHTLmZFgFBJvwWhxwFRcBpmdrxCplvSBTLRmRnJSnBkC"><i class="bi bi-envelope"></i></a>
                 <a href="https://www.instagram.com/log_peace?igsh=MTF2Y2RnMWFtM3Nmaw=="><i class="bi bi-instagram"></i></a><a href=""></a>
             </div>
+
+
+
         </div>
+            </motion.div>        
     )
 }
 

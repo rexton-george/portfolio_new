@@ -1,5 +1,5 @@
 import styles from './Hero.module.css'
-import Button from '../Button/Button'
+import Button from '../../Common/Button/Button'
 import { motion } from "framer-motion";
 
 
@@ -32,7 +32,7 @@ const Hero = () =>{
             </div>
             <div className={styles.namendimg}>
                 <h1><span>REXTON</span> GEORGE R</h1>
-                <img src="\src\assets\WhatsApp_Image_2024-09-12_at_22.42.22_d36cfb72-removebg-preview.png" alt="image" />
+                <img src="\src\assets\IMG_20250220_111130.jpg" alt="image" />
             </div>
             <div className={styles.dscrp}>
                 <div className={styles.indscrp}>

@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import Navbar from './componets/Navbar/Navbar'
 import './App.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+
+
+import Navbar from './componets/Common/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Skills from './pages/Skills/Skills'

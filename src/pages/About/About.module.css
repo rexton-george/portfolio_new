@@ -4,5 +4,6 @@
     background: linear-gradient(180deg, #006895, black);
     overflow: scroll;
     scrollbar-width: none;
-    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
 }

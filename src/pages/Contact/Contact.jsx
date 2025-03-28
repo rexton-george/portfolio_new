@@ -1,12 +1,12 @@
-import Navbar from '../../componets/Navbar/Navbar'
+import Navbar from '../../componets/Common/Navbar/Navbar'
 import Styles from './Contact.module.css'
-import Navlocator from '../../componets/Navlocator/Navlocator'
+import Navlocator from '../../componets/Common/Navlocator/Navlocator'
 
 const Contact = () =>
     {
         return(
             <div className={Styles.contact}>
-                {/* <Navlocator/> */}
+                <Navlocator/>
             </div>
         )
     }

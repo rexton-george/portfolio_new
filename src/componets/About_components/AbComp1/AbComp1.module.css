@@ -1,0 +1,58 @@
+.comp1{
+    background-color: rgba(241, 0, 72, 0.317);
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.image{
+    background-image: url('/src/assets/IMG_20250220_111130.jpg');
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+    background-size: contain; /* Ensure the whole image is visible */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.contentch{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 20px;
+}
+.heading::selection{
+    background-color: rgb(1, 0, 56);
+    color:white;
+}
+.heading span{
+    padding:0px 5px;
+    background-color: rgb(1, 0, 56);
+    color:white ;
+}
+.heading span::selection{
+    background-color: white;
+    color: rgb(1, 0, 56);
+}
